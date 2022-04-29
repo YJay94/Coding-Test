@@ -21,7 +21,7 @@ var unique_report = report.filter(onlyUnique);
 array.push();
 
 //배열 splice 추가
-array.spice(1, 0, 'E');
+array.splice(1, 0, 'E');
 
 //배열 자르기
 array.split(' ');
@@ -47,3 +47,8 @@ array.includes();
 
 //replace
 string.replace("abc", "");
+
+
+
+//console.log () 안의 변수설정
+console.log('{$string}')
