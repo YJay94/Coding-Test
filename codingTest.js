@@ -20,6 +20,9 @@ var unique_report = report.filter(onlyUnique);
 //배열 추가
 array.push();
 
+//배열 splice 추가
+array.spice(1, 0, 'E');
+
 //배열 자르기
 array.split(' ');
 
